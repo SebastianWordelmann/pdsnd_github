@@ -2,7 +2,7 @@
 The project was created in october 2020 as part of a course at udacity.
 
 ### Bikeshare
-Replace the Project Title
+Data analyzing with python
 
 ### Description
 The project is about reading and analyzing data of a bikeshare company using python (pandas and numpy) from several csv files.
@@ -10,7 +10,7 @@ Furthermore the user can select filters and for example select only one city and
 As a result, the most popular stations, the duration of the trip and the most popular day of travel are displayed.
 
 ### Files used
-bikeshare.py
+* bikeshare.py
 
 **Data source (udacity):**
 * chicago.csv
