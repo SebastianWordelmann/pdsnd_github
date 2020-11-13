@@ -10,7 +10,12 @@ Furthermore the user can select filters and for example select only one city and
 As a result, the most popular stations, the duration of the trip and the most popular day of travel are displayed.
 
 ### Files used
-Include the files used
+bikeshare.py
+
+Data source (udacity):
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
