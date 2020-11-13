@@ -20,7 +20,7 @@ def get_filters():
     while True:
         city = input("Which city do you want to explore? Please type the full city name: Chicago, New York City or Washington: \n").lower()
         if city not in ('chicago', 'new york city', 'washington'):
-            print("That\'s not a valid city")
+            print("That\'s not a valid city. Perhaps there is a typo?")
         else:
             print("Ok - we are going to explore the data for {}".format(city))
             break
@@ -29,7 +29,7 @@ def get_filters():
     while True:
         month = input("In which month are you interested in? Please type the full month name: January, February, March, April, May, June or All to apply no filter? : \n").lower()
         if month not in ('all', 'january', 'february', 'march', 'april', 'may', 'june'):
-            print("That\'s not a valid month")
+            print("That\'s not a valid month. Perhaps there is a typo?")
         else:
             print("Ok - we are going to explore the data for {} in {}".format(city, month))
             break
@@ -38,7 +38,7 @@ def get_filters():
     while True:
         day = input("In which day are you interested in? Please type the full day: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or All to apply no filter? : \n").lower()
         if day not in ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'):
-            print("That\'s not a valid month")
+            print("That\'s not a valid month. Perhaps there is a typo?")
         else:
             print("Ok - we are going to explore the data for {} in {} on {}".format(city, month, day))
             break
@@ -70,7 +70,7 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.weekday_name
 
 
-    # filter by month 
+    # filter by month
     if month != 'all':
         # uses the index of the months list to get the corresponding int
         months = ['january', 'february', 'march', 'april', 'may', 'june']
