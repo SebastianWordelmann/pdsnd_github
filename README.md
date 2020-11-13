@@ -12,10 +12,10 @@ As a result, the most popular stations, the duration of the trip and the most po
 ### Files used
 bikeshare.py
 
-Data source (udacity):
-chicago.csv
-new_york_city.csv
-washington.csv
+**Data source (udacity):**
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 Credits to Udacity and Richard Karlehoff for teaching how to control versions with Git and work remote on GitHub.
