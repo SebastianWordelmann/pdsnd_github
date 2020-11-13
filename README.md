@@ -18,4 +18,6 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits to Udacity and Richard Karlehoff for teaching how to control versions with Git and work remote on GitHub.
+
+https://github.com/udacity/course-collaboration-travel-plans
